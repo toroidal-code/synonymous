@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (4.2.1)
+      activesupport (= 4.2.1)
+      builder (~> 3.1)
     activesupport (4.2.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -61,6 +64,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activemodel
   grape
   grape-entity
   mime-types
