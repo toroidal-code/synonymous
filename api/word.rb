@@ -117,7 +117,7 @@ class Word
     expose :word
     expose :part_of_speech
     expose :similar
-    expose :synonyms
+    expose :synonyms, using: SubWord::Entity
   end
 end
 

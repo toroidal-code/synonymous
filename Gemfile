@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rack'
+gem 'rack', '1.5.2'
 gem 'grape'
 gem 'grape-entity'
 gem 'oj'
 gem 'nokogiri'
 gem 'rack-cors'
 gem 'mime-types'
-gem 'activemodel'
+gem 'activemodel', '< 5'
