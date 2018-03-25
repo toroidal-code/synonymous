@@ -43,6 +43,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     oj (2.18.1)
+    puma (3.11.3)
     rack (2.0.1)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -68,6 +69,7 @@ DEPENDENCIES
   mime-types (= 2.4.3)
   nokogiri (~> 1.8)
   oj
+  puma
   rack
   rack-cors (= 0.3.1)
 
